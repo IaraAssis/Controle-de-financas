@@ -1,0 +1,73 @@
+body {
+    height: 100vw;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family-1);
+}
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 132px;
+    padding: 20px 16px;
+    background-color: var(--color-grey-5);
+
+}
+
+.header__button {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+
+}
+
+.header__button >h2 {
+
+    margin-bottom: 20px;
+    color: var(--color-grey-1);
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-1);
+    line-height: var(--font-line-height-1);
+}
+
+header h2 span {
+
+    color: var(--color-brand-1);
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-1);
+    line-height: var(--font-line-height-1);
+
+}
+
+
+
+.header__button>button {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-1);
+    border: 0.0938rem solid var(--color-brand-1);
+    background-color: var(--color-brand-1);
+    color: var(--color-mode);
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-3);
+
+}
